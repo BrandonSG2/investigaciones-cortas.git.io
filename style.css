@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #4e4e4e;
+}
+
+section.investigaciones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Accesibilidad {
+    background-color: #1078da;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    border: #000000 6px solid;
+}
+
+.Usabilidad {
+    background-color: #4CAF50;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    border: #000000 6px solid;
+}
+
+.DCU {
+    background-color: #da1032;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    border: #000000 6px solid;
+}
+
+.Accesibilidad h1, .Usabilidad h1, .DCU h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.Accesibilidad figure, .Usabilidad figure, .DCU figure {
+    margin: 0;
+}
+
+.Accesibilidad img, .Usabilidad img, .DCU img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: #000000 6px solid;
+}
+
+@media (max-width: 768px) {
+    .Accesibilidad, .Usabilidad, .DCU {
+        max-width: 100%;
+    }
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
